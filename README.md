@@ -1,3 +1,13 @@
+## In this fork: ##
+
+I've added a single new hash mode: mode 92100, titled "Glacier Hash".
+Glacier is the name of the engine that is used in the games Hitman (2016), Hitman 2, and Hitman 3 (and possibly more).
+Files for this game are packed in an archive and their filenames are stored as a hash of the original filename.
+
+The hash is md5, shortened to the first 8 bytes, with the first byte set to `00`.
+As an example, the glacier hash for "hashcat" is `0043b52063cd8409`. (note that in the games, every string is lowercased before hashing)
+
+
 ## *hashcat* ##
 
 **hashcat** is the world's fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, Windows, and macOS, and has facilities to help enable distributed password cracking.
