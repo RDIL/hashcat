@@ -69,7 +69,7 @@ KERNEL_FQ void m92100_mxx (KERN_ATTR_VECTOR ())
   }
 }
 
-KERNEL_FQ void m092100_sxx (KERN_ATTR_VECTOR ())
+KERNEL_FQ void m92100_sxx (KERN_ATTR_VECTOR ())
 {
   /**
    * modifier
