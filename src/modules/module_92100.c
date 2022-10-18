@@ -111,6 +111,8 @@ void module_init (module_ctx_t *module_ctx)
   module_ctx->module_interface_version        = MODULE_INTERFACE_VERSION_CURRENT;
 
   module_ctx->module_attack_exec              = module_attack_exec;
+  module_ctx->module_hash_decode_postprocess  = MODULE_DEFAULT;
+  module_ctx->module_benchmark_charset        = MODULE_DEFAULT;
   module_ctx->module_benchmark_esalt          = MODULE_DEFAULT;
   module_ctx->module_benchmark_hook_salt      = MODULE_DEFAULT;
   module_ctx->module_benchmark_mask           = MODULE_DEFAULT;
